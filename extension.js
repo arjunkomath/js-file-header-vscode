@@ -51,15 +51,19 @@ function activate(context) {
 
     var compileFileHeader = function (config) {
         var line = "/**\n";
-        line += " * {copyright}\n".replace("{copyright}", config.Copyright);
 
-        if (config.License) {
+        if (config.Copyright) {
+            var copyright = config.Copyright.replace(/\n/g, "\n * ");
+            line += " * {copyright}\n".replace("{copyright}", copyright);
             line += " *\n";
-            var license = config.License.replace(/\n/g, "\n * ");
-            line += " * {license}\n".replace("{license}", license);
         }
 
-        line += " *\n";
+        if (config.License) {
+            var license = config.License.replace(/\n/g, "\n * ");
+            line += " * {license}\n".replace("{license}", license);
+            line += " *\n";
+        }
+
         line += " * long description for the file\n";
         line += " *\n";
         line += " * @summary short description for the file\n";
