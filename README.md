@@ -1,4 +1,6 @@
-# JavaScript File Header README
+# JavaScript File Header extension for VS Code
+
+![Demo](https://raw.githubusercontent.com/arjunkomath/js-file-header-vscode/master/demo.gif)
 
 ## Features
 
