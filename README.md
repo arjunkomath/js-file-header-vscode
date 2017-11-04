@@ -4,7 +4,8 @@
 
 ## Features
 
-Create a file documentation header
+- Create a file documentation header
+- Last modified time is updated automatically
 
 ```javascript
 /**
