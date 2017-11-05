@@ -1,4 +1,9 @@
-# JavaScript File Header extension for VS Code
+# JavaScript File Header extension
+
+[![Badge for version for Visual Studio Code extension arjunkomath.js-file-header](https://vsmarketplacebadge.apphb.com/version/arjunkomath.js-file-header.svg)](https://marketplace.visualstudio.com/items?itemName=arjunkomath.js-file-header)
+[![Badge for installs for Visual Studio Code extension arjunkomath.js-file-header](https://vsmarketplacebadge.apphb.com/installs/naereen.arjunkomath.js-file-header.svg)](https://marketplace.visualstudio.com/items?itemName=arjunkomath.js-file-header)
+[![Badge for rating for Visual Studio Code extension arjunkomath.js-file-header](https://vsmarketplacebadge.apphb.com/rating/naereen.arjunkomath.js-file-header.svg)](https://marketplace.visualstudio.com/items?itemName=arjunkomath.js-file-header)
+[![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
 
 ![Demo](https://github.com/arjunkomath/js-file-header-vscode/blob/24e8a8d8441914ac4eb1fe0fd308a9820214b2f7/demo.gif)
 
