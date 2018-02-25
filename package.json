@@ -4,16 +4,20 @@
     "description": "JavaScript File Header for Documentation",
     "version": "0.1.0",
     "publisher": "arjunkomath",
+    "galleryBanner": {
+        "color": "#ffe04b",
+        "theme": "light"
+    },
+    "icon": "icon.jpg",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/arjunkomath/js-file-header-vscode"
+    },
     "engines": {
         "vscode": "^1.17.0"
     },
-    "categories": [
-        "Other"
-    ],
-    "activationEvents": [
-        "onCommand:extension.addJsFileHeader",
-        "onLanguage:javascript"
-    ],
+    "categories": ["Other"],
+    "activationEvents": ["onCommand:extension.addJsFileHeader", "onLanguage:javascript"],
     "main": "./extension",
     "contributes": {
         "configuration": {
