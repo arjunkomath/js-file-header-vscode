@@ -22,7 +22,7 @@
  * @author Arjun <arjunkomath@gmail.com>
  *
  * Created at     : 2017-11-03 02:21:56 
- * Last modified  : 2017-11-03 02:21:56 
+ * Last modified  : 2018-02-25 15:31:40
  */
 ```
 
@@ -36,7 +36,7 @@ This extension contributes the following settings:
 
 ## Release Notes
 
-### 0.1.2
+### 0.1.3
 
 - Start extention on opening javascript files
 - Add icon and repo url
