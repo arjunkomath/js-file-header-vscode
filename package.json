@@ -2,7 +2,7 @@
     "name": "js-file-header",
     "displayName": "JavaScript File Header",
     "description": "JavaScript File Header for Documentation",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "publisher": "arjunkomath",
     "galleryBanner": {
         "color": "#ffe04b",
@@ -16,8 +16,13 @@
     "engines": {
         "vscode": "^1.17.0"
     },
-    "categories": ["Other"],
-    "activationEvents": ["onCommand:extension.addJsFileHeader", "onLanguage:javascript"],
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onCommand:extension.addJsFileHeader",
+        "onLanguage:javascript"
+    ],
     "main": "./extension",
     "contributes": {
         "configuration": {
