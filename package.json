@@ -11,7 +11,8 @@
         "Other"
     ],
     "activationEvents": [
-        "onCommand:extension.addJsFileHeader"
+        "onCommand:extension.addJsFileHeader",
+        "onLanguage:javascript"
     ],
     "main": "./extension",
     "contributes": {
@@ -36,10 +37,12 @@
                 }
             }
         },
-        "commands": [{
-            "command": "extension.addJsFileHeader",
-            "title": "JavaScript: Add File Header"
-        }],
+        "commands": [
+            {
+                "command": "extension.addJsFileHeader",
+                "title": "JavaScript: Add File Header"
+            }
+        ],
         "keybindings": [
             {
                 "command": "extension.addJsFileHeader",
