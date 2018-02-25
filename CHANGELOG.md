@@ -1,5 +1,9 @@
 # Change Log
-All notable changes to the "js-file-header" extension will be documented in this file.
 
-## [Unreleased]
+## [0.1.3]
+- Start extention on opening javascript files
+- Add icon and repo url
+- Update release notes
+
+## [0.0.1]
 - Initial release
