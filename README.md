@@ -36,10 +36,11 @@ This extension contributes the following settings:
 
 ## Release Notes
 
-### 0.1.1
+### 0.1.2
 
 - Start extention on opening javascript files
 - Add icon and repo url
+- Update release notes
 
 ### 0.0.1
 
