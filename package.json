@@ -65,11 +65,11 @@
         "test": "node ./node_modules/vscode/bin/test"
     },
     "devDependencies": {
-        "typescript": "^2.5.2",
-        "vscode": "^1.1.5",
-        "mocha": "^3.5.0",
-        "eslint": "^4.6.1",
-        "@types/node": "^7.0.0",
-        "@types/mocha": "^2.2.42"
+        "@types/mocha": "^2.2.42",
+        "@types/node": "^7.10.7",
+        "eslint": "^4.19.1",
+        "mocha": "^6.2.0",
+        "typescript": "^2.9.2",
+        "vscode": "^1.1.36"
     }
 }
