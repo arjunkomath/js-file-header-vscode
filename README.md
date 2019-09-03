@@ -7,6 +7,11 @@
 
 ![Demo](https://github.com/arjunkomath/js-file-header-vscode/blob/24e8a8d8441914ac4eb1fe0fd308a9820214b2f7/demo.gif)
 
+## Usage
+
+When any JS file is open you can use the keyboard shortcut `alt + cmd + H` or `alt + crtl + H` to add file header. \
+You can also select `JavaScript : Add File Header option` from command palette to do the same.
+
 ## Features
 
 - Create a file documentation header
